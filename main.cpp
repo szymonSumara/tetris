@@ -30,6 +30,7 @@ int counter=0;
 void putBrick(int board[6][5],Brick * bricks, int numberOfBrick) {
 	if (numberOfBrick == 7) {
 		print(board, 5, 6);
+		cout << endl;
         counter+=1;
 		return;
 	}
